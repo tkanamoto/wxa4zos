@@ -8,6 +8,6 @@
       tags: ping, zos_ping
       ibm.ibm_zos_core.zos_ping:
 
-    - name: display order result
+    - name: display the messages
       debug:
-        msg: "{{ order_result }}"
+        msg: Hello, World!!
